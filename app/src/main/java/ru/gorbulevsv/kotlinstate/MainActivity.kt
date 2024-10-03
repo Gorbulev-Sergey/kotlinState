@@ -64,7 +64,7 @@ import ru.gorbulevsv.kotlinstate.ui.theme.KotlinStateTheme
 class MainActivity : ComponentActivity() {
     var size = mutableStateOf(22)
     val lineHeight = mutableStateOf(24)
-    var textOld = mutableStateOf(text2)
+    //var textOld = mutableStateOf(text2)
     var text = mutableStateOf(Html.fromHtml(text2, HtmlCompat.FROM_HTML_MODE_LEGACY).toString())
     var isBottomPanelShow = mutableStateOf(false)
 
